@@ -10,7 +10,7 @@ export default {
         wine: "#52041A"
       },
       backgroundImage: {
-        appBg: "url('/images/BG.png')",
+        appBg: "url('/images/BG2.png')",
         curve1: "url('/images/curve1.png')",
         curve2: "url('images/curve2.png')",
       },
