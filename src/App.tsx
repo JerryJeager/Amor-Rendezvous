@@ -1,11 +1,13 @@
-import  logo from "/logo.png"
-function App() {
 
+import Hero from "./components/ui/Hero";
+
+function App() {
   return (
-    <>
-      <img src={logo} alt="" />
-    </>
-  )
+    <div className="h-screen">
+      <Hero />
+      
+    </div>
+  );
 }
 
-export default App
+export default App;
