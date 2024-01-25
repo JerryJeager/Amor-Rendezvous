@@ -1,11 +1,33 @@
 import Header from "../layout/Header";
-
+import blackCouple from "/images/blackcouple.jpg"
+import ringShow from "/images/ringShow.jpg"
+import whiteCouple from "/images/whitecouple.jpg"
 const Hero = () => {
   return (
-    <div className="h-[80vh] lg:h-screen bg-appBg  bg-cover bg-center relative">
+    <div className="lg:h-screen bg-appBg  bg-cover bg-center relative">
       <Header />
+
+      <section className="font-comfortaa mx-auto w-[90%] mt-2 flex flex-col lg:flex-row justify-center lg:justify-between ">
+        <div className="self-center lg:w-1/2">
+          <h2 className="text-3xl lg:text-5xl text-wine font-bold">Plan Your Dream Wedding</h2>
+
+          <p className="mt-2">
+            Unveil the Magic of Your Perfect Wedding with Amor Rendezvous
+            Planning your dream wedding? Amor Rendezvous is here to turn your
+            vision into reality. Our platform is designed to simplify and
+            enhance every aspect of your wedding journey. From sending beautiful
+            invites to locating the finest vendors, we've got you covered.
+            Embrace the Future of Wedding Planning
+          </p>
+        </div>
+        <div className="flex lg:w-1/2 lg:self-end">
+          <img src={blackCouple} className="w-[30%] rounded-t-[100px] self-end translate-x-[45px] z-20" alt="" />
+          <img src={ringShow} className="w-[50%] overflow-visible z-10" alt="" />
+          <img src={whiteCouple} className="w-[30%] h-[100px] lg:h-[130px] -translate-x-[40px] translate-y-[20px]" alt="" />
+        </div>
+      </section>
       <svg
-        className="absolute bottom-0"
+        className="absolute bottom-0 z-30"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"
       >
