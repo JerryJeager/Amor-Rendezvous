@@ -20,7 +20,7 @@ const Header = () => {
               ? "flex bg-wine lg:bg-transparent py-4 lg:py-0"
               : "hidden lg:flex"
           }
-             rounded-md  absolute lg:static w-full top-full -left-0 flex flex-col lg:flex-row gap-4 items-center justify-center lg:justify-normal text-white lg:text-wine font-bold`}
+             z-50 rounded-md  absolute lg:static w-full top-full -left-0 flex flex-col lg:flex-row gap-4 items-center justify-center lg:justify-normal text-white lg:text-wine font-bold`}
         >
           <li>
             <Link to={"/"}>Features</Link>
