@@ -34,7 +34,7 @@ const Header = () => {
           <li>
             <Link
               to={"/"}
-              className="bg-appBg lg:bg-none lg:bg-wine text-wine lg:text-white rounded-lg p-2 flex items-center justify-center w-[90px]"
+              className="bg-appBg bg-cover bg-center lg:bg-none lg:bg-wine text-wine lg:text-white rounded-lg p-2 flex items-center justify-center w-[90px]"
             >
               Sign up
             </Link>
