@@ -8,7 +8,7 @@ const HamburgerIcon = ({ onClick, isHamburgerClicked }: HamburgerProps) => {
     <div
       onClick={onClick}
       className={`mt-8 -ml-[5%] cursor-pointer top-0 lg:hidden ${
-        isHamburgerClicked ? "z-20 fixed" : "absolute"
+        isHamburgerClicked ? "z-[100] absolute" : "absolute"
       }`}
     >
       <div
