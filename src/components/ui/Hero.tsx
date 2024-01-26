@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="lg:h-screen bg-appBg  bg-cover bg-center relative">
       <Header />
 
-      <section className="font-comfortaa mx-auto w-[90%] mt-2 flex flex-col lg:flex-row justify-center lg:justify-between ">
+      <section className="font-comfortaa mx-auto w-[90%] mt-2 flex flex-col lg:flex-row justify-center gap-4 lg:justify-between ">
         <div className="self-center lg:w-1/2">
           <h2 className="text-3xl lg:text-5xl text-wine font-bold">Plan Your Dream Wedding</h2>
 
@@ -19,6 +19,7 @@ const Hero = () => {
             invites to locating the finest vendors, we've got you covered.
             Embrace the Future of Wedding Planning
           </p>
+          <button className="bg-wine text-white rounded-lg w-[8rem] p-2 text-center font-bold mt-2 cursor-pointer">Get Started</button>
         </div>
         <div className="flex lg:w-1/2 lg:self-end">
           <img src={blackCouple} className="w-[30%] rounded-t-[100px] self-end translate-x-[45px] z-20" alt="" />
