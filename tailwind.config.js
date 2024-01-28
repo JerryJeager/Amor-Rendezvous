@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        wine: "#52041A"
+        wine: "#52041A",
+        lightPink: "#FBF8F2"
       },
       backgroundImage: {
         appBg: "url('/images/BG2.png')",
