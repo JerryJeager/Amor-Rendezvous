@@ -20,7 +20,7 @@ const Features = () => {
           ))}
         </div>
       </section>
-      <section className="pb-8 font-comfortaa w-[90%] mx-auto flex flex-col-reverse lg:flex-row-reverse gap-4 mt-6">
+      <section className="text-wine pb-8 font-comfortaa w-[90%] mx-auto flex flex-col-reverse lg:flex-row-reverse gap-4 mt-6">
         <div className="w-full lg:w-1/2">
           <h2 className=" mb-2 font-bold text-xl lg:text-3xl italic">
             Craft your Wedding Business Legacy
