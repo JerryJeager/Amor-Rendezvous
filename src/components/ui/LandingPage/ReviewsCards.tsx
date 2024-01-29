@@ -3,7 +3,7 @@ import { reveiwsType } from "../../../data/reviews";
 
 const ReviewsCards = (Props: reveiwsType) => {
   return (
-    <div className="w-[330px] mx-auto mt-4 text-center">
+    <div className="lg:w-[330px] mx-auto mt-4 text-center">
       <p className="italic font-semibold">"{Props.reviewContent}"</p>
 
       <div className="mt-2   mx-auto">
