@@ -2,6 +2,7 @@ import "./index.css"
 import Features from "./components/ui/LandingPage/Features";
 import Hero from "./components/ui/LandingPage/Hero";
 import Reviews from "./components/ui/LandingPage/Reviews";
+import Contact from "./components/ui/LandingPage/Contact";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Hero />
       <Features />
       <Reviews />
+      <Contact />
     </div>
   );
 }
